@@ -5925,73 +5925,54 @@ button.close {
     display: none !important; } }
 html {
   font-family: 'Raleway', sans-serif;
-  background: url("_img/header-transparent-bg.jpg") no-repeat center center fixed;
+  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/08/mindful-bg.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
 
 body {
+  display: none;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.75), rgba(248, 212, 150, 0.8)) left repeat;
   background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(248, 212, 150, 0.8)) left repeat;
-  border: 1px solid #f9deae;
-  display: none; }
+  border: 1px solid #f9deae; }
+
+header {
+  border: 1rem solid #5f9217;
+  background: url("http://www.leisapeterson.com/wp-content/uploads/2016/07/grid-dark.jpg"); }
 
 .top-header-txt h1 {
   font-weight: 700;
-  color: #e49710;
-  padding-top: 3rem; }
+  color: #517c14;
+  padding-top: 3rem;
+  font-variant: small-caps; }
 .top-header-txt h2 {
   font-style: italic;
-  color: #b5770d; }
+  color: #5f9217; }
 
 .middle-content-block {
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  color: gray; }
   .middle-content-block .img-block {
     padding-top: 5rem; }
+    .middle-content-block .img-block img {
+      width: 65%; }
   .middle-content-block .text-block {
-    padding: 2rem; }
-    .middle-content-block .text-block li {
-      font-size: 3rem !important; }
-      @media (max-width: 400px) {
-        .middle-content-block .text-block li {
-          font-size: 1rem !important;
-          padding-bottom: 1rem; } }
+    padding: 2rem;
+    margin-top: 8rem; }
+    .middle-content-block .text-block h2 {
+      font-size: 3.5rem; }
+    .middle-content-block .text-block h4 {
+      font-size: 2.5rem;
+      padding-top: 3rem; }
   .middle-content-block .bottom-text {
     text-align: center;
     font-size: 2rem;
     font-style: italic; }
 
-.quote-block {
-  margin-top: 5rem;
-  background-color: rgba(64, 64, 64, 0.7);
-  padding: 7rem; }
-  @media (max-width: 450px) {
-    .quote-block {
-      padding-left: 1rem;
-      padding-right: 1rem; } }
-  .quote-block blockquote {
-    border-left: 0; }
-  .quote-block .text-block i {
-    font-size: 6rem;
-    color: silver; }
-  .quote-block .text-block p {
-    color: #d9d9d9;
-    font-size: 2.3rem;
-    font-style: italic; }
-    .quote-block .text-block p cite {
-      display: block;
-      padding-top: 3rem;
-      font-size: 2rem;
-      font-style: bold; }
-  @media (max-width: 450px) {
-    .quote-block .text-block i {
-      padding-bottom: 2rem; }
-    .quote-block .text-block p cite {
-      padding-bottom: 3rem; } }
-
 .bottom-form-block {
   border: 1rem solid #5f9217;
+  background: rgba(95, 146, 23, 0.15);
   margin-top: 5rem;
   padding-top: 5rem;
   padding-bottom: 5rem; }
